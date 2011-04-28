@@ -9,6 +9,9 @@ pack spec &rest args => array
 Packs arguments according to spec as an octet buffer (simple array
 with 8-bit unsigned bytes).
 
+The spec string should be formatted as given in
+http://docs.python.org/library/struct.html#byte-order-size-and-alignment
+
 
 pack-into spec stream &rest args => stream
 
